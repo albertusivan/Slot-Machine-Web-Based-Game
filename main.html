@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slot Machine</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      background-image: url('images/Background.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="slot.js"></script>
+
+	<div id="stage" class="perspective-on">
+  	<div id="rotate">
+    <div id="ring1" class="ring"></div>
+    <div id="ring2" class="ring"></div>
+    <div id="ring3" class="ring"></div>
+    <div id="ring4" class="ring"></div>
+  </div>
+
+<!--   <div>
+    <p class="placeholder"><img id="place1" src="images/orange.png"></p>
+  </div>
+ -->
+  <div>
+    <button class="go">Start spinning</button>
+  </div>
+
+<!--   <div>
+    <label>
+		<input type="checkbox" id="xray">Show inner workings</label>
+    <label>
+		<input type="checkbox" id="perspective">Toggle perspective</label>
+  </div>
+ -->
+</div>
+</body>
+</html>
